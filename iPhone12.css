@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+nav {
+    max-width: 100%;
+    margin: auto;
+    background-color:rgb(247, 244, 244);
+    margin-top: 0px;
+    font-size: 13px;
+    position: sticky;
+    top: 0; 
+    z-index: 1000 ;
+    }
+
+    .navegacion {
+        display: flex;
+    }
+
+.volver {
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.title {
+    list-style: none;
+    font-size: 20px;
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 1.26316;
+    letter-spacing: 0.012em;
+    margin-left: 100px;
+    opacity: .88;
+}
+
+.sub {
+    list-style: none;
+    font-size: 15px;
+    color: white; 
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    }
+
+
+    /* Division de titulo */
+.tit1 {
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 100px;
+    opacity: .88;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 700px;
+    }
+
+.tit2 {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: .56;
+}
+
+.line1 {
+    width: 1100px;
+    margin-bottom: auto;
+    background: rgba(0,0,0,0.16); 
+}
+
+
+    /* Division de acabado */
+
+.acabado {
+    text-align: center;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 550;
+    color: #6e6e73;
+    
+}
+
+.ac {
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.line2 {
+    width: 1100px;
+    margin-top: 130px;
+    background: rgba(0,0,0,0.16); 
+}
+
+    /* Division de capacidad */
+
+.cap {
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.capacidades {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif ;
+    font-size: 20px;
+    color: #6e6e73;
+    font-weight: 600;
+    line-height: 35px;
+    margin-left: 250px;
+}
+
+.line3 {
+    width: 1100px;
+    margin-top: 80px;
+    background: rgba(0,0,0,0.16); 
+}
+
+    /* Division de tamaño */
+
+.tam {
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.imgtam {
+    height: 230px;
+    margin-left: 300px;
+}
+
+    /* Division de pantalla */
+
+.pant {
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.imgpant {
+    height: 350px;
+    margin-left: 250px ;
+}
+
+.pantallas {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif ;
+    font-size: 20px;
+    opacity: .88;
+    color: #6e6e73;
+    line-height: 35px;
+    margin-left: 250px;
+    list-style: none;
+    font-weight: 10;
+}
+
+    /* Division de chip */
+
+.chi {
+    font-family:"SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.chips {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif ;
+    font-size: 20px;
+    opacity: .88;
+    color: #6e6e73;
+    line-height: 35px;
+    margin-left: 250px;
+    list-style: none;
+    font-weight: 10;
+}

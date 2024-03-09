@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+    box-sizing: border-box;
+    }
+
+    
+    li > img {
+    width: 30px;
+    margin-top: 5px;
+    }
+
+    body {
+    background-color: black;
+    background-size: cover;
+    }
+
+    nav {
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(24, 26, 26);
+    margin-top: 0px;
+    font-size: 17px;
+    position: sticky;
+    top: 0;
+    }
+
+    nav, ul, li, a {
+    text-decoration: none;
+    }
+
+    .horizontal {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        }
+
+    .horizontal > li > a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(199, 191, 191);
+    position: sticky;
+    }
+
+    ul > li > a:hover {
+    color: white;
+    }
+
+    .vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 300px;
+    height: auto;
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    background-color: rgb(24, 26, 26);
+    line-height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+
+    .vertical > li > a {
+    color: rgb(199, 191, 191);
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 20px;
+    }
+
+    .vertical {
+    color: rgb(199, 191, 191);
+    }
+
+    .horizontal li:hover .vertical {
+    display: block;
+    }
+
+
+    /* Primer fondo */
+
+    header{
+    text-align: center;
+    background: url(Apple-iPhone-15-Pro-lineup-hero-230912.jpg.og.jpg) no-repeat;
+    background-size: cover;
+    height: 520px;
+    margin-top: 780px;
+    }
+
+    .ip {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    margin-top: -770px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+
+    .ti {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+
+    a.mas {
+    color: #2997ff;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    transition: font-size 0.3s ease;
+    }
+
+    a.mas:hover {
+    text-decoration-line: underline;
+    font-size: 23px;
+    }
+
+
+    /* Segundo fondo */
+
+    .fondo2{
+    text-align: center;
+    height: 700px;
+    background: url(applewatchseries9.png) no-repeat center;
+    background-size: 650px;
+    margin-top: auto;
+    }
+
+    .fondo2 {
+    background-color: white;
+    }
+
+    .watch {
+    color: black;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+    UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:45px;
+    }
+
+    .series {
+    color: red;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+    UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 3px;
+    position: static;
+    }
+
+    .brillar {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 60px;
+    }
+
+
+    /* Tercer fondo */
+    
+    .fondo3 {
+        text-align: center;
+        background: url(image-removebg-preview.png) no-repeat center;
+        background-size: 900px;
+        height: 700px;
+    }
+
+    .airpods {
+        color: white;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-size: 50px;
+    }
+
+    .audio {
+        color: white;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: .012em;
+        line-height: 40px;
+    }
+
+    /* Airpods con sus almohadillas */
+
+    .imgair {
+        display:inline-flex;
+        margin-top: 450px;
+        
+    }
+
+    .airpod {
+        margin-right: 20px;
+    }
+
+    /* FOOTER */
+
+    .pie-pagina {
+        width: 100%;
+        background-color: rgb(29, 29, 31);
+    }
+
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+
+    .pie-pagina .grupo-1 .box figure {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pie-pagina .grupo-1 .box figure img{
+        width: 150px;
+    }
+
+    .pie-pagina .grupo-1 .box h2{
+        color: white;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .pie-pagina .grupo-1 .box p {
+        color: #efefef;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .pie-pagina .grupo-2{
+        background-color: rgb(29, 29, 31);
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .pie-pagina .grupo-2 small{
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+    /* Estilizar la barra de navegación */
+    ::-webkit-scrollbar {
+    width: 10px; /* Ajusta el ancho según tus preferencias */
+    }
+    /* Estilizar el pulgar de la barra de navegación */
+    ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    }
+    /* Estilizar el fondo de la barra de navegación */
+    ::-webkit-scrollbar-track {
+    background-color: black; }
